@@ -1,0 +1,235 @@
+h1::selection {
+  background-color: green;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: orange;
+  }
+  h1::before {
+    content: "Welcome to My Website!"
+  }
+}
+
+@media (max-width: 499px) {
+  body {
+    background-color: pink;
+  }
+  h1::before {
+    content: "Welcome!"
+  }
+}
+
+h1 {
+  background-color: lightblue;
+  font-size: 60px;
+  margin-right: 900px;
+}
+
+.heading1 {
+  font-size: 40px;
+  color: red;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: red;
+}
+
+h2 {
+  background-color: lightblue;
+  font-size: 50px;
+  margin-right: 1200px;
+}
+
+h3 {
+  font-size: 30px;
+  color: red;
+  background-color: white;
+  margin-right: 990px;
+}
+
+table {
+  background-color: lightblue;
+  margin: 60px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th::selection, td::selection {
+  color: red;
+  background-color: yellow;
+}
+
+th, td  {
+  border: 2px solid black;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+p::selection {
+  color: red;
+  background-color: yellow;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: lightgrey;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+img {
+  max-width: 40%;
+  max-height: 30%;
+}
+
+.home {
+  color: red;
+  font-size: 50px;
+  background-color: white;
+  margin-right: 1065px;
+}
+
+.homeimg {
+  background-image: url("Images/india.jpg");
+}
+
+.homepara {
+  font-size: 20px;
+  background-color: white;
+  margin-right: 1160px;
+}
+
+.refer {
+  color: blue;
+  background: springgreen;
+  font-size: 30px;
+  margin: 10px;
+  margin-right: 740px;
+}
+
+.gridbody {
+  background-image: url("Images/background_img_festivals.jpeg");
+}
+
+.tablebody {
+  background-image: url("Images/politics.jpeg");
+}
+
+.grid {
+  background-color: green;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+.foodimg {
+  background-image: url("Images/indiafoods.jpeg");
+}
+
+.foodbtn {
+  background-color: orange;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.item {
+  background-color: springgreen;
+  font-size: 20px;'
+  padding: 20px;
+  text-align: center;
+}
+
+.selected {
+  background-color: yellow;
+  color: red;
+}
+
+.Lists {
+  font-size: 25px;
+  background-color: white;
+  color: blue;
+  margin-right: 1150px;
+}
+
+.grid0 {
+    background-color: orange;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.link_ {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#columnhead {
+  text-align: center;
+}
+
+.listfont {
+  font-size: 30px;
+}
+
+.item1 {
+  text-align: center;
+}
+
+.item2 {
+  text-align: center;
+  margin-top: 400px;
+}
+
+.item3 {
+  text-align: center;
+  margin-top: 310px;
+}
+
+.foodpara1 {
+  font-size: 25px;
+}
+
+.foodpara2 {
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+.foodpara3 {
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+.foodlnk {
+  background-color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Thank {
+  margin: 30px;
+  border: 5px dotted blue;
+  font-size: 80px;
+}
+
+.YOU {
+  margin: 30px;
+  border: 5px dotted blue;
+  padding-top: 110px;
+  padding-bottom: 50px;
+  font-size: 80px;
+}

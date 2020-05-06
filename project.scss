@@ -1,0 +1,37 @@
+$color: orange;
+$h2tag: red;
+$h2bck: yellow;
+$padding: 10px;
+$margin: 20px;
+
+.neighbourtable {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+  color: red;
+}
+
+.h2tag {
+  color:$h2tag;
+  background-color: $h2bck;
+  padding: $padding;
+  margin: $margin;
+  margin-right: 870px;
+  margin-left: 70px;
+}
+
+.nbritem {
+  padding: $padding;
+  border: 2px solid black;
+}
+
+.neighborstd {
+  font-size: 20px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.neighbour {
+  background-image: url("Images/neighbours.jpg");
+  color: $color;
+}
